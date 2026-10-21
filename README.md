@@ -4,6 +4,33 @@ Claude Code skills based on [The Minimalist Entrepreneur](https://www.minimalist
 
 This is the LocalHighStreets copy of the skill collection. Attribution to Sahil Lavingia and the book is retained. The commands below select this repository rather than the upstream `slavingia/skills` repository.
 
+## Completion and remaining work
+
+Snapshot: **21 October 2026**.
+
+| Measure | Status |
+|---|---|
+| Overall feature/release completion | **Not yet measurable** — no reconciled, acceptance-tested repository-wide baseline was established in this review |
+| Tracked-work completion | **N/A** — no eligible GitHub issues in this repository |
+| Open tracked work | 0 issues |
+| Excluded closures | 0 cancelled/not-planned or unclassified closures |
+
+The tracked percentage is `completed / (completed + open) × 100`, rounded to one decimal place. It counts repository GitHub issues equally; PRs and closures not marked `completed` are excluded. It is **not** a feature-completeness, effort, test-coverage or production-readiness percentage. Jira work, untracked requirements and upstream-project issues are outside this denominator. An empty tracker means unknown scope, not 100% completion.
+
+### Remaining work and acceptance evidence
+
+The following items identify implementation decisions, tracker reconciliation or validation still needed to establish completion; they are not all newly verified code defects.
+
+- Define the LocalHighStreets-specific skill acceptance checklist and track any required adaptations.
+- Verify installation and invocation of the declared plugin/skills in the intended host.
+- Review skill outputs against representative business scenarios; absence of GitHub issues does not prove this validation is complete.
+
+### Tracked backlog
+
+No open GitHub issues were returned for this repository at the snapshot date. Establish an owner-approved scope and acceptance checklist before assigning an overall percentage.
+
+[Review the current issue tracker](https://github.com/localhighstreets/minimalist-skills/issues?q=is%3Aissue). Reconcile old package scopes, route assumptions and duplicate/superseded tickets against current code before acting on them. Update this dated numerator/denominator and remaining-work list after acceptance changes.
+
 ## Installation
 
 In Claude Code:
