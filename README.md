@@ -2,22 +2,24 @@
 
 Claude Code skills based on [The Minimalist Entrepreneur](https://www.minimalistentrepreneur.com/) by Sahil Lavingia.
 
+This is the LocalHighStreets copy of the skill collection. Attribution to Sahil Lavingia and the book is retained. The commands below select this repository rather than the upstream `slavingia/skills` repository.
+
 ## Installation
 
 In Claude Code:
 
 ```
-/plugin marketplace add slavingia/skills
+/plugin marketplace add localhighstreets/minimalist-skills
 /plugin install minimalist-entrepreneur
 ```
 
-That's it — Claude Code will fetch the repo and register all 10 skills automatically.
+The checked-in [plugin manifest](.claude-plugin/marketplace.json) declares the `minimalist-entrepreneur` plugin. The [skills](skills) directory contains the skill instructions. Successful installation depends on the host's plugin support.
 
 <details>
 <summary>Alternative: install from a local clone</summary>
 
 ```bash
-git clone https://github.com/slavingia/skills.git ~/.claude/plugins/skills
+git clone https://github.com/localhighstreets/minimalist-skills.git ~/.claude/plugins/skills
 ```
 
 Then in Claude Code:
